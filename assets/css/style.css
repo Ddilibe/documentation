@@ -488,6 +488,7 @@ section {
 .section-description {
   text-align: center;
   margin-bottom: 40px;
+  color: black;
 }
 
 .section-title-divider {
@@ -502,11 +503,14 @@ section {
 --------------------------------*/
 #about {
   background: #fff;
+  /* background: url(../img/dariusz-sankowski-dvK_CT1Wg78-unsplash.jpg) top center; */
+  background: linear-gradient(rgba(196, 191, 191, 0.978), rgba(255, 255, 255, 0.1)), url(../img/dariusz-sankowski-dvK_CT1Wg78-unsplash.jpg) top center;
   padding: 80px 0;
 }
 
 #about .about-img {
   overflow: hidden;
+  background: transparent;
 }
 
 #about .about-img img {
@@ -526,6 +530,9 @@ section {
 
 #about .about-content {
   background: #fff;
+  background: transparent;
+  color:rgba(0, 0, 0, 0.8);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #about .about-title {
@@ -541,6 +548,14 @@ section {
 
 #about .about-text:last-child {
   margin-bottom: 0;
+}
+
+.member span {
+  text-align: center;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 /* Services Section
